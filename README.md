@@ -1,7 +1,8 @@
 # CrystalPvP Bot Plugin
 
 A fully customizable **Crystal PvP combat bot** for Minecraft **1.20.1+**, designed to simulate high-level PvP behavior including pearling, anchoring, digging, and more. Ideal for testing or training, or if you just want to have a fight with yourself.
-![GitHub all releases](https://img.shields.io/github/downloads/trxshonzaza/CrystalBot/total?label=Downloads)
+
+![GitHub all releases](https://img.shields.io/github/downloads/trxshonzaza/CrystalBot/total?label=Downloads) ![GitHub stars](https://img.shields.io/github/stars/trxshonzaza/CrystalBot?style=social) ![GitHub forks](https://img.shields.io/github/forks/trxshonzaza/CrystalBot?style=social)
 ---
 
 ## 📦 Requirements
