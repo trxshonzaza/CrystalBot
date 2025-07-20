@@ -1,4 +1,4 @@
-# 🔮 CrystalPvP Bot Plugin
+# CrystalPvP Bot Plugin
 
 A fully customizable **Crystal PvP combat bot** for Minecraft **1.20.1+**, designed to simulate high-level PvP behavior including pearling, anchoring, digging, and more. Ideal for testing or training, or if you just want to have a fight with yourself.
 
@@ -6,30 +6,31 @@ A fully customizable **Crystal PvP combat bot** for Minecraft **1.20.1+**, desig
 
 ## 📦 Requirements
 
-- **Minecraft Version:** `1.20.1+`
+- **Minecraft Version:** `1.20.1-1.21.5`
 - **Required Dependencies:**
-  - [Citizens v1.20.1](https://www.spigotmc.org/resources/citizens.13811/) 
-  - [Sentinel v1.20.1](https://www.spigotmc.org/resources/sentinel.22017/)
+  - [Citizens](https://www.spigotmc.org/resources/citizens.13811/) 
+  - [Sentinel](https://www.spigotmc.org/resources/sentinel.22017/)
+    Get the appropriate version of Citizens for your server.
 
 ---
 
 ## 💡 Features
 
-- 💣 **Anchoring**
+- **Anchoring**
   - Full support for anchor PvP.
-- 🪓 **Digging**
+- **Digging**
   - Digs and uses crystals if it is stuck or is closed up in a corner.
-- 🍗 **Eating Mechanics**
+- **Eating Mechanics**
   - Automatically eats enchanted golden apples at low health.
-- 🛡️ **Durability Management**
+- **Durability Management**
   - Armor durability is automatically adjusted when it takes damage.
-- 🧨 **Pearling**
+- **Pearling**
   - Can use pearls to go to you if you are running away.
-- ⚙️ **Fully Configurable**
+- **Fully Configurable**
   - Almost all behavior is adjustable: crystal place and break delays, anchor place and break delays, when to place anchors, when to dig, and more.
   - You can also customize how much totems the bot has, how many stacks of golden apples it has, and more.
 
-### 💬 Basic Commands
+### 💬 Commands
 
 ```bash
 /spawngui # opens the GUI to spawn a bot.
