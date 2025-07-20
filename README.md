@@ -8,8 +8,8 @@ A fully customizable **Crystal PvP combat bot** for Minecraft **1.20.1+**, desig
 
 - **Minecraft Version:** `1.20.1+`
 - **Required Dependencies:**
-  - [Citizens](https://www.spigotmc.org/resources/citizens.13811/) 
-  - [Sentinel](https://www.spigotmc.org/resources/sentinel.22017/)
+  - [Citizens v1.20.1](https://www.spigotmc.org/resources/citizens.13811/) 
+  - [Sentinel v1.20.1](https://www.spigotmc.org/resources/sentinel.22017/)
 
 ---
 
