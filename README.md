@@ -1,15 +1,15 @@
 # 🔮 CrystalPvP Bot Plugin
 
-A fully customizable **Crystal PvP combat bot** for Minecraft **1.20.1+**, designed to simulate high-level PvP behavior including pearling, anchoring, digging, and more. Ideal for testing, training, or automating Crystal PvP fights.
+A fully customizable **Crystal PvP combat bot** for Minecraft **1.20.1+**, designed to simulate high-level PvP behavior including pearling, anchoring, digging, and more. Ideal for testing or training, or if you just want to have a fight with yourself.
 
 ---
 
 ## 📦 Requirements
 
 - **Minecraft Version:** `1.20.1+`
-- **Dependencies:**
-  - [Citizens](https://www.spigotmc.org/resources/citizens.13811/) *(required)*
-  - [Sentinel](https://www.spigotmc.org/resources/sentinel.22017/) *(required)*
+- **Required Dependencies:**
+  - [Citizens](https://www.spigotmc.org/resources/citizens.13811/) 
+  - [Sentinel](https://www.spigotmc.org/resources/sentinel.22017/)
 
 ---
 
