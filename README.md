@@ -25,7 +25,7 @@ A fully customizable **Crystal PvP combat bot** for Minecraft **1.20.1+**, desig
 - **Durability Management**
   - Armor durability is automatically adjusted when it takes damage.
 - **Pearling**
-  - Can use pearls to go to you if you are running away.
+  - Can use pearls to go to you if you are running away or to get closer to you in hole combat.
 - **Fully Configurable**
   - Almost all behavior is adjustable: crystal place and break delays, anchor place and break delays, when to place anchors, when to dig, and more.
   - You can also customize how much totems the bot has, how many stacks of golden apples it has, and more.
