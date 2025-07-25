@@ -1,0 +1,20 @@
+name: CrystalBot
+version: '${project.version}'
+main: trxsh.ontop.crystalbot.Main
+api-version: '1.20'
+depend: [Sentinel, Citizens]
+authors: [trxsh 2.0#1988]
+description: A crystal bot that utilizes Sentinel and CitizensAPI ! made for version 1.20.1. created by trxsh.
+commands:
+  setspawn:
+    description: sets CrystalBot spawn point.
+    usage: /<command>
+  spawnbot:
+    description: spawns a CrystalBot.
+    usage: /<command>
+  spawngui:
+    description: open a gui for spawning bots.
+    usage: /<command>
+  removebot:
+    description: removes the bot that belongs to the player.
+    usage: /<command>
