@@ -1,5 +1,6 @@
 # CrystalPvP Bot Plugin
-![Demonstration](https://github.com/trxshonzaza/CrystalBot/blob/main/2025_07_25_00_05_27%20-%20Trim%20(1).gif?raw=true)
+![Hole PVP](https://github.com/trxshonzaza/CrystalBot/blob/main/output.gif?raw=true)
+![Flat PVP](https://github.com/trxshonzaza/CrystalBot/blob/main/output1.gif?raw=true)
 A fully customizable **Crystal PvP combat bot** for Minecraft **1.20.1+**, designed to simulate high-level PvP behavior including pearling, anchoring, digging, and more. Ideal for testing or training, or if you just want to have a fight with yourself.
 
 ![GitHub downloads](https://img.shields.io/github/downloads/trxshonzaza/CrystalBot/total?label=Downloads) ![GitHub stars](https://img.shields.io/github/stars/trxshonzaza/CrystalBot?style=social) ![GitHub forks](https://img.shields.io/github/forks/trxshonzaza/CrystalBot?style=social)
@@ -25,7 +26,7 @@ A fully customizable **Crystal PvP combat bot** for Minecraft **1.20.1+**, desig
 - **Durability Management**
   - Armor durability is automatically adjusted when it takes damage.
 - **Pearling**
-  - Can use pearls to go to you if you are running away.
+  - Can use pearls to go to you if you are running away or to get closer to you in hole combat.
 - **Fully Configurable**
   - Almost all behavior is adjustable: crystal place and break delays, anchor place and break delays, when to place anchors, when to dig, and more.
   - You can also customize how much totems the bot has, how many stacks of golden apples it has, and more.
