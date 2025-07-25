@@ -533,9 +533,9 @@ public class Bot {
                         if(target != null && !pearling && !isCrystaling && !isEating && !isAnchoring) {
                             double distance = target.getLocation().distance(getNPCAsEntity().getEyeLocation());
 
-                            if(distance >= 15 || (LocationUtility.shouldClosePearl(getNPCAsEntity()) && distance >= 8)) {
+                            if(distance >= 15 || (LocationUtility.shouldClosePearl(getNPCAsEntity()) && distance >= 6)) {
                                 Location i = getNPCAsEntity().getEyeLocation();
-                                Location f = target.getLocation().clone().add(0, 1, 0);
+                                Location f = target.getLocation();
 
                                 RayTraceResult result = getNPCAsEntity().getWorld().rayTraceBlocks(i, LookUtility.getDirectionBetween(i, f), distance);
 
@@ -545,7 +545,7 @@ public class Bot {
 
                                     stack.setAmount(stack.getAmount() - 1);
 
-                                    double[] angles = ProjectileUtility.calculateAngles(i, f.clone().add(0, 4, 0));
+                                    double[] angles = ProjectileUtility.calculateAngles(i, f.clone().add(0, 5, 0));
 
                                     Location location = getNPCAsEntity().getLocation();
                                     location.setYaw((float) angles[0]);
