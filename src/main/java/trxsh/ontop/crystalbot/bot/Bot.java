@@ -469,6 +469,7 @@ public class Bot {
                             }
 
                             anchorVerbose++;
+
                             if(anchorVerbose >= anchorVerboseMax) {
                                 isAnchoring = true;
                                 //sage("place anchor");
@@ -590,6 +591,7 @@ public class Bot {
             isEating = false;
             isAnchoring = false;
             isDigging = false;
+            removeRequest = true;
         }
     }
 

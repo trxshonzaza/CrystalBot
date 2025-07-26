@@ -388,7 +388,7 @@ public class SpawnGUI {
                 delays[4] = 1;
                 delays[5] = 1;
                 verboses[0] = 3;
-                verboses[1] = 1;
+                verboses[1] = 5;
                 options.add(CrystalOptions.CAN_DIG);
                 options.add(CrystalOptions.CAN_USE_KB);
                 options.add(CrystalOptions.USE_BLAST_RESISTANCE);

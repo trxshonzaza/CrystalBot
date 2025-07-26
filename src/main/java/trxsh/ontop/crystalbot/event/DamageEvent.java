@@ -24,7 +24,7 @@ public class DamageEvent implements Listener {
                 // loose 1 durability for every 2 hearts of damage (see https://minecraft.fandom.com/wiki/Durability#Armor_durability)
                 if(finalDamage >= 4) {
                     for(int i = 1; i < Math.round((float)finalDamage / 4); i++) {
-                        if(new Random().nextInt(0, 5) <= 1) { // loose 1 durability for every 1 in (1 + enchant level)
+                        if(new Random().nextInt(0, 4) <= 1) { // loose 1 durability for every 1 in (1 + enchant level)
                             reduceDurability(player);
                         }
                     }

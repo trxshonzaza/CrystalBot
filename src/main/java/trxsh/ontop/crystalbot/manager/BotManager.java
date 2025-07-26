@@ -101,7 +101,7 @@ public class BotManager {
         new BukkitRunnable() {
             @Override
             public void run() {
-                if(bot.getNPC() == null || bot.getNPCAsEntity() == null) {
+                if(bot.getNPC() == null || bot.getNPCAsEntity() == null || bot.owner.isDead() || !bot.owner.isValid()) {
                     bot.removeRequest = true;
                 }
 
